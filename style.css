@@ -1,6 +1,65 @@
 * {
   padding: 0px;
   margin: 0px;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
+.svg-icon {
+  width: 1em;
+  height: 1em;
+}
+
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.dashboard {
+  background-color: rgb(13, 13, 117);
+  color: white;
+}
+
+.dash-icon {
+  width: 5vw;
+  height: auto;
+  margin-right: 15px;
+} 
+
+.dash-head {
+  display: flex;
+  align-items: center;
+  margin-top: 10vh;
+  margin-left: 15px;
+  margin-bottom: 30px;
+}
+
+.dash-head-text {
+  font-size: 25px;
+}
+
+.link {
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+.link img {
+  width: 40px;
+  height: auto;
+  margin-right: 10px;
+}
