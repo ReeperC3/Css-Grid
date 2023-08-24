@@ -2,6 +2,11 @@
   padding: 0px;
   margin: 0px;
   font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
+html {
+  background-color: rgb(13, 1, 67);
 }
 
 .container {
@@ -55,7 +60,7 @@
   display: grid;
   background-color: rgb(13, 1, 67);
   grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1.5fr 4fr;
+  grid-template-rows: 30vh 70%;
 }
 
 /*-- Header --*/
@@ -65,7 +70,7 @@
   grid-column: 1 / 3;
   display: grid;
   grid-template-rows: 1fr 1.25fr;
-  grid-template-columns: 1.5fr 1fr;
+  grid-template-columns: 1.5fr 4fr;
 }
 
 .search {
@@ -159,6 +164,39 @@
 
 .projects {
   
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: blue;
+  margin: 30px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+.card-head {
+  font-size: 20px;
+}
+
+.cards div img {
+  border-radius: 10px;
+  margin-bottom: 5px;
+  margin-top: 5px;
+  width: 280px;
+  height: auto;
+}
+
+.project-head {
+  font-size: 30px;
+  margin: 20px;
 }
 
 /*-- Right side --*/
