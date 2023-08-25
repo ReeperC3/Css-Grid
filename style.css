@@ -93,6 +93,7 @@ html {
 
 .searchbar {
   width: 30vw;
+  border-radius: 10px;
 }
 
 .profile {
@@ -153,7 +154,7 @@ html {
   background-color: rgb(35, 35, 252);
   border-radius: 10px;
   height: 45px;
-  width: 80px;
+  width: 70px;
   color: white;
   font-size: 20px;
   margin: 10px;
@@ -161,10 +162,6 @@ html {
 }
 
 /*-- Projects --*/
-
-.projects {
-  
-}
 
 .cards {
   display: flex;
@@ -202,5 +199,61 @@ html {
 /*-- Right side --*/
 
 .right {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
 
+.announcements {
+  margin-top: 10px;
+}
+
+.announcements-part {
+  background-color: rgb(35, 35, 252);
+  border-radius: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+.announcements-head {
+  font-size: 20px;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.announcement-head {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.announcement {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.trending {
+  background-color: rgb(35, 35, 252);
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.trending-box {
+  margin-top: 10px;
+}
+
+.trending-box span {
+  font-size: 20px;
+}
+
+.trending-person {
+  display: grid;
+  grid-template-columns: 0.25fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin: 10px;
+}
+
+.person-icon {
+  grid-row: 1 / 3;
 }
